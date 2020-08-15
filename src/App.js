@@ -83,7 +83,7 @@ return (
   <div className="App">
   <header>
     <form id="to-do-form" onSubmit={this.addItem}>
-      <h2>Your Bucket List...</h2>
+      <h2>Your Bucket List....</h2>
       <input type ="test" placeholder ="Enter Text" 
       value={this.state.currentItem.text}
         onChange={this.handleInput} />
